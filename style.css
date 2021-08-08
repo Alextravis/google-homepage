@@ -1,27 +1,85 @@
+.head{
+   
+}
+.topnav{
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+li{
+   display: inline;
+}
+.nav1{
+float: left;
+}
+.nav2{
+float: right;
+}
+
+/* logo and search */
 
 .container{
-   height: 500px;
+   min-height: 500px;
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
 }
    .logo{
       display: flex;
       align-items: center;
-      justify-content: center; 
+      justify-content: center;
+      width: 270px;
+      height: 95px;
+      margin-bottom: 25px;
    }
-   #form{
+   form{
       display: flex;
+      position: static;
       align-items: center;
+      justify-content: center;
+      padding: 20px;
+      width: 400px;
+      height: 10px;
+   }
+   .search-entry{
+      max-width: 580px;
+      margin: auto;
+   }
+   .searchbox{
+      position: relative;
+      align-content: center;
       justify-content: center;
    }
    #search{
       display: flex;
+      position: absolute;
+      align-content: center;
+      justify-content: center;
+      width: 500px;
+      height: 40px;
+      border-radius: 25px;
+   }
+   .search{
+      display: flex;
       align-items: center;
       justify-content: center;
+      display: inline-block;
+      margin: 10px;
+      height: 35px;
+      border-radius: 4px;
    }
-   #lucky{
-display: flex;
-align-items: center;
-justify-content: center;
+   .lucky{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: inline-block;
+      margin: 10px;
+      height: 35px;
+      border-radius: 4px;
    }
