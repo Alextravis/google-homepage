@@ -1,3 +1,7 @@
+:root{
+
+}
+
 body{
    font-family: Arial, sans-serif;
 }
@@ -21,34 +25,36 @@ li{
    padding: 10px;
    color: black;
 }
+a:hover{
+   text-decoration: underline;
+
+}
 a{
    color: black;
+   text-decoration: none
 }
 .nav1{
-display: inline-block;
 float: left;
 text-align: center;
 padding: 5px;
 margin: 0px 5px;
 }
 .nav2{
-display: inline-block;
 float: right;
-align-items: center;
-justify-content: flex-end;
 text-align: center;
-display: block;
+padding: 5px;
+margin: 0px 5px;
 }
 .gitavatar{
-   
-   
-
    width: 30px;
    height: 30px;
    border-radius: 50%;
 }
 .material-icons{
-
+}
+#icon{
+   position: absolute;
+   padding-right: 490px;
 }
 
 /* logo and search */
@@ -82,7 +88,16 @@ main{
    }
    .search-entry{
       max-width: 580px;
-      margin: auto;
+      height: 30px;
+   }
+   input{
+      width: 80%;
+      font-size: 18px;
+      padding: 0px 20px 0px 25px;
+      border-left: 22px;
+      margin-left: 15px;
+      text-align: left;
+
    }
    .searchbox{
       position: relative;
@@ -105,7 +120,11 @@ main{
       display: inline-block;
       margin: 10px;
       height: 35px;
-      border-radius: 4px;
+      border-radius: 5px;
+      background-color: whitesmoke;
+      font-size: 13px;
+      font-family: inherit;
+
    }
    .lucky{
       display: flex;
@@ -114,5 +133,8 @@ main{
       display: inline-block;
       margin: 10px;
       height: 35px;
-      border-radius: 4px;
+      border-radius: 5px;
+      background-color: whitesmoke;
+      font-size: 13px;
+      font-family: inherit;
    }
