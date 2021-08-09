@@ -138,3 +138,29 @@ main{
       font-size: 13px;
       font-family: inherit;
    }
+
+   /* footer navbar */
+
+   .footer{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 5px;
+      border: 1px solid;
+      border-color: #dadada;
+      background-color: #f2f2f2;
+
+   }
+   .footer-link{
+display: block;
+padding: 10px 0px 10px 40px;
+   }
+   .left-nav{
+      display: flex;
+   }
+   .right-nav{
+display: flex;
+margin-right: 30px;
+   }
