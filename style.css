@@ -45,116 +45,134 @@ a{
    height: 30px;
    border-radius: 50%;
 }
-.material-icons{
+.gitavatar:hover{
+   box-shadow: 5px 5px 5px rgb(206, 206, 206);
+}
+#ninedot:hover{
+   box-shadow: 5px 5px 5px rgb(206, 206, 206);
+   border-radius: 50px;
 }
 #icon{
    position: absolute;
-   padding-right: 490px;
+   padding: 28px 28px;
+   background-position: -250px -40px;
 }
 
 /* logo and search */
 
 main{
-   padding-bottom: 100px;
-}
-.container{
-   min-height: 500px;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   position: relative;
+   padding-bottom: 100px;
 }
-   .logo{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 95px;
-      margin-bottom: 25px;
+.container{
+   margin-top: 100px;
+}
+.logo{
+   display: block;
+   margin: 0 auto;
+}
+input{
+   display: inline-block;
+   font-family: inherit;
+   text-align: start;
    }
-   form{
-      display: flex;
-      position: static;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      width: 400px;
-      height: 10px;
+div{
+   display: block;
    }
-   .search-entry{
-      max-width: 580px;
-      height: 30px;
+form{
+   display: block;
+   flex-direction: column;
    }
-   input{
-      width: 80%;
-      font-size: 18px;
-      padding: 0px 20px 0px 25px;
-      border-left: 22px;
-      margin-left: 15px;
-      text-align: left;
-
+button{
+   width: 120px;
+   height: 117px;
    }
-   .searchbox{
-      position: relative;
-      align-content: center;
-      justify-content: center;
+div #google:hover{
+   margin: 10px;
+   border: 1px solid;
+   border-color: black;
    }
-   #search{
-      display: flex;
-      position: absolute;
-      align-content: center;
-      justify-content: center;
-      width: 500px;
-      height: 40px;
-      border-radius: 25px;
+div #lucky:hover{
+   margin: 10px;
+   border: 1px solid;
+   border-color: black;
+}
+#search:hover{
+   box-shadow: 5px 5px 5px rgb(206, 206, 206);
+}
+#search{
+   width: 550px;
+   max-width: 800px;
+   height: 40px;
+   border: 1px solid;
+   border-radius: 50px;
+   padding: 0px 40px;
+   font-size: inherit;
+   margin: 20px;
+   }   
+.button{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
    }
-   .search{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      display: inline-block;
-      margin: 10px;
-      height: 35px;
-      border-radius: 5px;
-      background-color: whitesmoke;
-      font-size: 13px;
-      font-family: inherit;
-
+#google{
+   display: flex;
+   align-items: center;
+   justify-content: center;      
+   display: inline-block;
+   margin: 10px;
+   height: 35px;
+   border-radius: 5px;
+   border: 1px solid;
+   border-color: rgb(206, 206, 206);
+   background-color: whitesmoke;
+   font-style: 13px;
+   font-family: inherit;
    }
-   .lucky{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      display: inline-block;
-      margin: 10px;
-      height: 35px;
-      border-radius: 5px;
-      background-color: whitesmoke;
-      font-size: 13px;
-      font-family: inherit;
+#lucky{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: inline-block;
+   margin: 10px;
+   height: 35px;
+   border-radius: 5px;
+   border: 1px solid;
+   border-color: rgb(206, 206, 206);
+   background-color: whitesmoke;
+   font-size: 11px;
+   font-family: inherit;
    }
 
    /* footer navbar */
 
-   .footer{
-      position: absolute;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      padding: 5px;
-      border: 1px solid;
-      border-color: #dadada;
-      background-color: #f2f2f2;
-
+.footer{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 5px;
+   margin: 100px 0 0 0;
+   bottom: 0;
+   border: 1px solid;
+   border-color: #dadada;
+   background-color: #f2f2f2;
    }
-   .footer-link{
-display: block;
-padding: 10px 0px 10px 40px;
+.footer-link{
+   display: block;
+   padding: 10px 0px 10px 40px;
    }
-   .left-nav{
-      display: flex;
+.left-nav{
+   display: flex;
    }
    .right-nav{
-display: flex;
-margin-right: 30px;
+   display: flex;
+   margin-right: 30px;
    }
