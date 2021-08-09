@@ -13,3 +13,5 @@ I am completing this ReadMe after the fact so I will make my best attempt to chr
 -Rebuild "Google" logo and search bar area with better CSS understanding.
 -Apply box-shadow to search bar, "apps" icon, and GitHub user avatar.
 -Apply hover elements to "Google search" and "I'm Feeling Lucky" buttons.
+
+-Alex.
